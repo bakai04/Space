@@ -9,13 +9,31 @@
   </head>
   <body>
     <div class="slider">
-      <header class="header"></header>
-      <div class="first-block">
+        <header class="header">
+          <div class="header__logo">
+            <img src="./assert/gif/SPACE TO TRAVEL (1).svg" alt="logo" />
+          </div>
+          <ul class="header__menu">
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#spaceship">Spaceship</a></li>
+            <li><a href="#ethos">Ethos</a></li>
+            <li><a href="#crew">Crew</a></li>
+            <li><a href="#journal">Journal</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </header>
+      <div class="second-block">
         <video
           class="video"
           preload="auto"
           loop
           autoplay
+          muted
           src="./assert/gif/earth_-_4788 (Original).mp4"
         ></video>
       </div>
@@ -25,6 +43,7 @@
           preload="auto"
           loop
           autoplay
+          muted
           src="./assert/gif/space_-_57904 (Original).mp4"
         ></video>
       </div>
@@ -34,9 +53,11 @@
           preload="auto"
           loop
           autoplay
+          muted
           src="./assert/gif/earth_-_1175 (Original).mp4"
         ></video>
       </div>
+      <div id="parallax"></div>
     </div>
     <script type="module" defer src="./js/main.js"></script>
   </body>

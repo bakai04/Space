@@ -1,0 +1,91 @@
+a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 1.5rem;
+  position: fixed;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.header__logo img{
+  width: 450px;
+}
+
+.header__menu {
+  list-style: none;
+  background-color:#505052;
+  border-radius: 45px;
+  height: 50px;
+  padding: 8px 30px 0 30px;
+  margin: 5px 50px 0 0;
+}
+
+.header__menu li {
+  display: inline-block;
+  margin-right: 15px;
+  padding-top: 5px;
+  letter-spacing: .025em;
+}
+
+.header__menu li a {
+  color: #FFFFFF;
+}
+
+.gif {
+  width: 100%;
+}
+.menu-icon {
+  margin: 20px 0;
+  width: 25px;
+  height: 14px;
+  cursor: pointer;
+  position: relative;
+}
+.menu-icon span {
+  background-color: #FFFFFF;
+  height: 2px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  transition: all 0.3s ease;
+}
+.menu-icon span:first-child {
+  top: 0;
+}
+.menu-icon span:nth-child(2) {
+  top: 6px;
+}
+.menu-icon span:last-child {
+  top: 12px;
+}
+.menu-icon:hover span:nth-child(2) {
+  opacity: 0;
+}
+.menu-icon:hover span:first-child,
+.menu-icon:hover span:last-child {
+  top: 6px;
+  background-color: #FFFFFF;
+}
+.menu-icon:hover span:first-child {
+  transform: rotate(45deg);
+}
+.menu-icon:hover span:last-child {
+  transform: rotate(-45deg);
+}
+
+.menu-icon {
+  display: none;
+}
+@media (max-width: 1052px) {
+  .header__menu {
+      display: none;
+  }
+
+  .menu-icon {
+      display: block;
+  }
+
+}

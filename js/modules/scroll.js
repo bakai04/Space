@@ -1,10 +1,10 @@
-function scroll(){
-    window.addEventListener('scroll', function() {
-        // let scroll=window.innerHTML = pageYOffset;
-        // if(scroll>500){
-        //     console.log(scroll);
-        //     document.querySelector(".second-block").classList.add("active");
-        // }
-      });
-}
-export default scroll;
+// function scroll(){
+//     window.addEventListener('scroll', function() {
+//         let slide=document.querySelectorAll(".second=")
+//         let scroll=window.innerHTML = pageYOffset;
+//         const screenHeight = 700;
+//         if(scroll>screenHeight){
+//         }
+//       });
+// }
+// export default scroll;

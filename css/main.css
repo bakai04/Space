@@ -1,6 +1,7 @@
 @import url(./module/header.css);
 @import url(./module/first.css);
 @import url(./module/paralax.css);
+@import url(./module/menu.css);
 body{
     overflow-x: hidden;
 }
