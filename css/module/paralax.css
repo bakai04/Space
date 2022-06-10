@@ -1,0 +1,9 @@
+#parallax { 
+  position: relative; 
+  width: 100%; 
+  height: 100vh; 
+  background-image: url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-3.png), url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-2.png),  url(https://image.mux.com/9502tco46B3rfkOkrWFHcROpOdM4n9J4UDuMZOt5kcWo/thumbnail.jpg?time=0&fit_mode=preserve); 
+  background-repeat: no-repeat; 
+  /* background-position: center; */ 
+  /* background-position: 50% 50%; */ 
+}
